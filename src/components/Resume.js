@@ -5,6 +5,15 @@ export default  class Resume extends Component {
     return (
       <section id="resume">
 
+          <div className="row download">
+            <div className="three columns header-col">
+            </div>
+            <div className="nine columns main-col">
+              <a className="button" href='/Michael-Yu-CV-June-2023.pdf' download>Download CV</a> 
+            </div>
+          </div>
+        
+
          <div className="row education">
 
             <div className="three columns header-col">

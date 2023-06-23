@@ -26,7 +26,7 @@ let resumeData = {
     tailored software solutions. Possesses a strong work ethic fostered through research and co-op experience,\
     complemented by a socially-conscious approach to problem-solving that prioritizes the end user's needs.\
     Currently seeking a full-time position to apply expertise and expand skill set, aiming to contribute to the success of an exceptional organization.\
-    When AFK, enjoys weightlifting, mixed-martial arts, music production, and games.",
+    When AFK, enjoys weightlifting, mixed-martial arts, music, and board games.",
     "address":"Vancouver BC, Canada",
     "website":"michael.g.yu@gmail.com",
     "education":[

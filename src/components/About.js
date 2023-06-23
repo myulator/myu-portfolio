@@ -25,7 +25,7 @@ export default class About extends Component {
 
                Currently seeking a full-time position to apply expertise and expand skill set, aiming to contribute to the success of an exceptional organization.<br/> <br/>
 
-               When AFK, enjoys weightlifting, mixed-martial arts, music production and games.
+               When AFK, enjoys weightlifting, mixed-martial arts, music, movies and board games.
                </p>
 
                <div className="row">

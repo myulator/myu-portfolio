@@ -208,8 +208,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 170px;
+   height: 170px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -267,6 +267,12 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+
+.download{
+   margin-bottom: 28px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
 #resume .info {
    /* font: 16px/24px 'librebaskerville-italic', serif; */
    font: 16px/24px 'opensans-regular', sans-serif;
@@ -283,6 +289,16 @@ ul#nav li.current a { color: #F06000; }
    color:slategray;
    font: 16px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+#resume .button{
+   color:black;
+   font: 16px/24px 'opensans-bold', sans-serif;
+   letter-spacing: 2px;
+	font-weight: normal;
+   margin-top: 6px;
+   padding: 20px;
+
 }
 
 /*----------------------------------------------*/
@@ -804,7 +820,7 @@ call-to-action .button {
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
-   
+
    text-align: center;
 }
 #contact .section-head { margin-bottom: 42px; }
