@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -289,12 +289,12 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 .contact em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 26px/30px 'opensans-bold', sans-serif;
    color: white;
 	text-transform: uppercase;
-   letter-spacing: 2px;
+   letter-spacing: 4px;
 	font-weight: normal;
-   position: relative;
+   position: center;
 }
 
 .bars {
@@ -804,6 +804,8 @@ call-to-action .button {
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
+   
+   text-align: center;
 }
 #contact .section-head { margin-bottom: 42px; }
 

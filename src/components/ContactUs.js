@@ -6,20 +6,25 @@ export default class ContactUs extends Component {
       <section id="contact">
           <div className="row section-head">
             <div className="ten columns">
-              <p className="lead">
+              {/* <p className="lead">
               Let's connect!
-              </p>
+              </p> */}
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4 className="contact"><em>michael.g.yu@gmail.com</em>
+              <div className="widget"> */}
+
+              
+                <div className="banner-text">
+                  <h2 className="contact"><em>michael.g.yu@gmail.com</em>
                   {/* {resumeData.linkedinId} */}
-                </h4>
-              </div>
+                  </h2>
+                </div>
+              
+              {/* </div>
             </aside>
-          </div>
+          </div> */}
         </section>
         );
   }
