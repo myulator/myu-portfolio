@@ -155,3 +155,9 @@
    }
 
 }
+
+@font-face {
+    font-family: "Dojebi";
+    src: url('fonts/Dojebi.otf');
+    src: url('fonts/Dojebi.ttf') format('truetype');
+  }

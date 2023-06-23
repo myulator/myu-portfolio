@@ -58,9 +58,11 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   /* font: 90px/1.1em 'Dojebi', 'opensans-bold', sans-serif; */
+   font: 160px/1em 'Dojebi','opensans-bold', sans-serif;
    color: #fff;
-   letter-spacing: -2px;
+   /* letter-spacing: -2px; */
+   letter-spacing: 2px; 
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
@@ -195,6 +197,13 @@ ul#nav li.current a { color: #F06000; }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
+
+#about h1 {
+   font: 130px/30px 'Dojebi', sans-serif;
+   /* letter-spacing: .5px; */
+   color: #fff;
+   margin-bottom: 12px;
+}
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
