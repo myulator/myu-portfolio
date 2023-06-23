@@ -16,9 +16,16 @@ export default class About extends Component {
 
                <h2>About Me</h2>
                <p>
-               {
+               {/* {
                  resumeData.aboutme
-               }
+               } */}
+               Results-driven software developer with a broad scientific background and a proven track record of delivering
+               tailored software solutions. Possesses a strong work ethic fostered through research and co-op experience,
+               complemented by a socially-conscious approach to problem-solving that prioritizes the end user's needs. <br/> <br/>
+
+               Currently seeking a full-time position to apply expertise and expand skill set, aiming to contribute to the success of an exceptional organization.<br/> <br/>
+
+               When AFK, enjoys weightlifting, mixed-martial arts, music production and games.
                </p>
 
                <div className="row">

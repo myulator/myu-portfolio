@@ -202,6 +202,7 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 12px;
 }
 #about p {
+   font: 16px/24px 'opensans-regular', sans-serif;
    line-height: 30px;
    color: #7A7A7A;
 }
@@ -236,7 +237,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: lavender;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -267,8 +268,10 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   /* font: 16px/24px 'librebaskerville-italic', serif; */
+   font: 16px/24px 'opensans-regular', sans-serif;
+   /* color: #6E7881; */
+   color:slategray;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -277,13 +280,22 @@ ul#nav li.current a { color: #F06000; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   color:slategray;
+   font: 16px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+.contact em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: white;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: normal;
+   position: relative;
+}
 
 .bars {
 	width: 95%;
@@ -302,14 +314,14 @@ ul#nav li.current a { color: #F06000; }
   	height: 42px;
   	border-radius: 3px;
 }
-.bars li em {
+.skills li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	/* top: -36px; */
 }
 .bar-expand {
    position: absolute;
