@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Michael-Yu-Portfolio/precache-manifest.03bb0dabb092d388f9734a624084e97c.js"
+  "/myu-portfolio/precache-manifest.61d2c204746b4dfafdb13062c43fd760.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Michael-Yu-Portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/myu-portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
