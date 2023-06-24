@@ -9,7 +9,9 @@ export default  class Resume extends Component {
             <div className="three columns header-col">
             </div>
             <div className="nine columns main-col">
-              <a className="button" href='/Michael-Yu-CV-June-2023.pdf' download>Download CV</a> 
+              {/* <a className="button" href='/Michael-Yu-CV-June-2023.pdf' download>Download CV</a>  */}
+              <a className="button" href='./Michael-Yu-CV-June-2023.pdf'  target="_blank">Download CV</a>
+              
             </div>
           </div>
         
