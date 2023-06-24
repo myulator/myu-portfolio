@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Michael-Yu-Portfolio/precache-manifest.f2e0ba2454838b0af19434510a07e8fc.js"
+  "/Michael-Yu-Portfolio/precache-manifest.441e8d410fc901bdf58a049d0f51f695.js"
 );
 
 workbox.clientsClaim();
